@@ -18,6 +18,7 @@ phases:
   post_build:
     commands:
       - echo Entering Post_Build Phase
+      - aws lambda update-function-code \--function-name  Dummy \--s3-bucket codepipeline-us-east-1-802277446442 --s3-key Build.zip
 artifacts:
   files:
     - "**/*"
