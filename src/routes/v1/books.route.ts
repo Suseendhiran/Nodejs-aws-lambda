@@ -7,7 +7,7 @@ router.get('/', async (req: Request, res: Response) => {
     const books = [
       {
         id: 'ebb3d966-74e4-11ed-8db0-136d663b98e7',
-        title: 'Some Title',
+        title: 'Some Title new',
         author: 'Some Author',
       },
     ];
